@@ -4,7 +4,6 @@ const { saveExtractedData } = require('../queries/pdf.queries');
 const {GEMINI_KEY} = require('../config/constants');
 
 const genAI = new GoogleGenerativeAI(GEMINI_KEY);
-console.log(genAI);
 
 const extractPDFData = async (req, res) => {
     try {
