@@ -47,6 +47,7 @@ export default function FileUploadComponent() {
 
   return (
     <div className="flex flex-col items-center w-full max-w-md mx-auto p-4 space-y-4">
+      <h1 className="text-2xl font-bold mb-4">FILE UPLOAD</h1>
       <div className="w-full border-2 border-purple-500 border-dashed rounded-md p-4 text-center">
         <input
           type="file"
